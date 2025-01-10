@@ -1,0 +1,65 @@
+# Chapter 0 notes
+
+## 0.2 Introduction to programming langauges
+Computer program - set of instructions that a computer can follow to perform some task
+Programming language- language to facilitate writing of instructions for computers
+
+C++ Is a high level language, which is compiled to machine code, which the cpu executes.
+We use high level langauges as they are:
+1. portable
+2. easy to understand
+3. require fewer instructions
+
+Some langauges like puthon and javascript are interpreted and requires a interpreter.
+and Interpeter is a program that directlty executes the instructions into source code wihtout requiring them to be compiled.
+Interpreters are more flexible, but slower.
+
+## 0.3 Introduction to C/C++
+
+C was before C++. C++ is C with classes
+C++ versions:
+- C++98, C++11, C++14, C++17, C++20, and C++23
+
+## 0.4, 0.5: stages of development and Introduction to the compiler, linker, and libraries
+
+### Step 1: Define the problem
+
+### Step 2: Determine how you are going to solve the problem
+Good solutions are:
+- straightforward
+- well documented
+- Modular
+- recvoer gracefully or give useful error messages
+
+### Step 3: Write the program
+Learn  a language, write the code using a coding editor
+- Source is written is ASCII , thats why we use !=
+- Best Practice: Name the primary source code file in each program main.cpp
+
+### Step 4: Compiling your source code
+Compiling does two things
+1. Checks c++ code to make sure it follows the rules of the c++ language
+2. Translates c++ code into machine langauge and creates an object file to store these instructions
+
+object file is named name.o where the name is the same as the .cpp file
+
+### Step 5: Linking object files and libraries
+
+A linker combines all the object files to produce the desired output file. This is called linking.
+Theis happens in 3 steps:
+1. Linker makes sure all object files are valid.
+2. Ensures all cross file dependencies are resolved (i.e if you reference something in one .cpp and use it in another, the linkers checks if it exists).
+3. Linkers links library files (pre compiled code for resuse in other programs)
+
+#### Building
+Building refers to the whole process of converting source code files into an executable.
+The specific executable produced is called a build.
+
+- Advanced: big projects use make or build 2 to automate building programs and running tests.
+
+### Steps 6 & 7: Testing and Debugging
+
+## 0.6 — Installing an Integrated Development Environment (IDE)
+
+
+
